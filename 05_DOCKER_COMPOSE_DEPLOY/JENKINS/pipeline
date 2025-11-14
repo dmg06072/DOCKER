@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        GITHUB_REPO = 'https://github.com/BIGDATAUI-2025-06-30/DOCKER.git'
+        GITHUB_REPO = 'https://github.com/dmg06072/DOCKER.git'
         EC2_HOST = '43.203.5.84'  // EC2 인스턴스의 퍼블릭 IP나 DNS
         EC2_USER = 'ec2-user'       // EC2 사용자 이름 (Amazon Linux의 경우 'ec2-user', Ubuntu의 경우 'ubuntu')
     }
